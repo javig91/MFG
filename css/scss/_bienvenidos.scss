@@ -1,0 +1,68 @@
+.body_index {
+    position: inherit;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)),
+                url("../../imgs/fondo_pagina_bienvenida/background_sinBorde_EnBaja.png");
+    background-size: cover;
+    background-position-x: left;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+        #section_bienvenidos {
+            position: absolute;
+            z-index: 99;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 920px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 40%;
+            color: rgb(255, 255, 255);
+            animation: 3.2s infinite sombraDelTexto;
+            text-shadow: 0px 0px 20px #000000;
+            transition: .5s all ease-in-out;
+
+                .h1_bienvenidos,
+                .h2_bienvenidos {
+                    display: flex;
+                    font-size: 2.5rem;
+                    letter-spacing: 2px;
+                    text-align: justify;
+                    color: #99CC99;
+                    font-family: $font-banks;
+                    text-align: center;
+                }
+
+                .h2_bienvenidos {
+                    order: 1;
+                }
+
+                .h1_bienvenidos {
+                    order: 2;
+                }
+        }
+    }
+
+@keyframes sombraDelTexto {
+
+    0% {
+        text-shadow: 0px 0px 20px #ffffff;
+    }
+
+    50% {
+        text-shadow: 0px 0px 20px #000000;
+    }
+
+    100% {
+        text-shadow: 0px 0px 20px #ffffff;
+    }
+}

@@ -1,0 +1,215 @@
+/* CONTACTO */
+    
+.container {
+    margin: 45px auto 0;
+    color: #F18C8E;
+    font-family: $main_font;
+    
+        // h1 {} estilos en generales.scss
+
+        // div.base-H1 {} estilos en generales.scss
+
+        p {
+            width: 90%;
+            max-width: 900px;
+            padding: 1rem;
+            font-size: 1rem;
+            text-align: center;
+            margin: 1rem auto;
+        }
+
+        #formulario-contacto {
+            width: 100%;
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 95%;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    margin-bottom: 3em;
+
+                        select, input, textarea {
+                            width: 96%;
+                            margin: 0 2%;
+                            padding: .5rem;
+                            margin-bottom: 1em;
+                        
+                            font-size: 1em;
+                            font-family: jura, verdana, sans-serif;
+                            
+                            border: none;
+
+                                .light &:hover {
+                                    transition: .2s ease-in-out all;
+                                    border-left: 1px solid #000;
+                                    border-right: 1px solid #000;
+                                }
+                        }
+                        
+                        textarea {
+                            resize: none;
+                        }
+                        
+                        button {
+                            width: 85%;
+                            height: auto;
+                            margin: 0 auto;
+                            padding: 15px;
+                            cursor: pointer;
+                        
+                            color: #FFF;
+                            font-size: 1rem;
+                            font-family: $main_font;
+                            letter-spacing: 1.5px;
+                        
+                            background-color: #455740;
+                        
+                            border: unset;
+                        }
+                        
+                        button:hover {
+                            background-color: #3c4a37;
+                        }
+                }
+                
+                div#resultado {
+                    width: 100%;
+                    height: auto;
+                    margin: 1em auto;
+                    text-align: left;
+                    font-weight: bold;
+                    background-color: #333;
+                    padding: 20px;
+                }
+                
+                div.error {
+                    color: #CF5950;
+                }
+                
+                div.exito {
+                    color: #82E884;
+                }
+                
+                div.g-recaptcha {
+                    margin: 1em 0;
+                }
+        }
+
+}
+
+div.g-recaptcha {
+    width: 95%;
+    height: auto;
+    margin: 1em 2.5%;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+
+// #div_nombre {
+//     width: 100%;
+//     height: 50px;
+//     background-color: aquamarine;
+//     display: block;
+// }
+
+#captcha_inputs-error {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 1em auto;
+
+        #validaciones {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            margin: 5px auto;
+            padding: 0;
+
+                .validaciones {
+                    width: 100%;
+                    height: auto;
+                    // margin: 5px 0;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                p {
+                    font-size: .75rem;
+                    margin: 0 auto 1rem;
+                    padding: 0;
+                    font-weight: normal;
+                    letter-spacing: 1px;
+                    text-shadow: 0px 0px 11px #000;
+
+                    // font-size: 13px;
+                    // margin: 1% auto;
+                    // padding: 0;
+                    // border-bottom: 1px dotted #000000;
+                }
+        }
+
+        #captcha {
+            width: 100%;
+            height: auto;
+            margin: auto 0;
+            padding: 0;
+        }
+
+}
+
+.formulario__grupo-input {
+    position: relative;
+}
+
+.formulario__input-error {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    hyphens: auto;
+    display: none;
+}
+
+.formulario__input-error-activo {
+    margin: 5px 0 0 0;
+    display: block;
+}
+
+.formulario__validacion-estado {
+    position: absolute;
+    right: 3.5%;
+    bottom: 50%;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario_input:focus {
+    outline: none;
+}
+
+/* ----- -----  Estilos para Validacion [ estados / iconos ] ----- ----- */
+
+.formulario_grupo-correcto .formulario__validacion-estado{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario_grupo-incorrecto{
+    color: #bb2929;
+    margin-bottom: 0;
+}
+
+.formulario_grupo-incorrecto .formulario__validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario_grupo-incorrecto .formulario_input {
+    border: 3px solid #bb2929;
+}
