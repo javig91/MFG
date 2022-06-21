@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "banks";
+
+    src: url("../../fonts/banks/banks.otf") format("opentype"),
+    url("../../fonts/banks/banks.ttf") format("truetype"),
+    url("../../fonts/banks/banks.eot") format("eot"),
+    url("../../fonts/banks/banks.svg") format("svg"),
+    url("../../fonts/banks/banks.woff") format("woff");
+}
+
+@font-face {
+    font-family: "gsa";
+    src: url("../../fonts/gsa/gsa.otf") format("opentype"),
+    url("../../fonts/gsa/gsa.ttf") format("truetype"),
+    url("../../fonts/gsa/gsa.eot") format("eot"),
+    url("../../fonts/gsa/gsa.svg") format("svg"),
+    url("../../fonts/gsa/gsa.woff") format("woff");
+}
+
+$font-banks: "banks";
+
+$font-gsa: "gsa";
+
+$sans_serif: "Times new roman, verdana, roboto, sans-serif";
+
+$main_font: $font-gsa, $sans_serif;
+
+$font-banks-sans_serif: $font-banks, $sans_serif ;
+
+$color_verde_fondo: #203239;
+
+$color_fondo_light: #f1f1f1;
+
+$color_parrafo_light: #41444B;
+
+$color_h1_h3_light: #52575D;
+
+$color_li_light: #525E75;
+
+$verde_claro: #99CC99;
+
+$font_verde: #9CB919;
+
+$font_azul: #336791;
+
+$rectangulo_verde: #455740;
+
+$rectangulo_azul: #305F72;
+
+$margin_rectanguloVerde: 0 auto;
+
+$margin_imgs: 1rem auto;
+
+$margin_parrafos: 1rem auto;
+
+$margin_allSections: 1rem auto 1.5rem;

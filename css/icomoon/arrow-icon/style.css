@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?57v8h');
+  src:  url('fonts/icomoon.eot?57v8h#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?57v8h') format('truetype'),
+    url('fonts/icomoon.woff?57v8h') format('woff'),
+    url('fonts/icomoon.svg?57v8h#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-undo2:before {
+  content: "\e967";
+}
+.icon-redo2:before {
+  content: "\e968";
+}
+.icon-forward:before {
+  content: "\e969";
+}
+.icon-reply:before {
+  content: "\e96a";
+}
+.icon-arrow-down:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-arrow-thick-down:before {
+  content: "\e903";
+}
+.icon-arrow-thick-left:before {
+  content: "\e904";
+}
+.icon-arrow-thick-right:before {
+  content: "\e905";
+}
+.icon-arrow-thick-up:before {
+  content: "\e906";
+}
+.icon-arrow-thin-down:before {
+  content: "\e907";
+}
+.icon-arrow-thin-left:before {
+  content: "\e908";
+}
+.icon-arrow-thin-right:before {
+  content: "\e909";
+}
+.icon-arrow-thin-up:before {
+  content: "\e90a";
+}
+.icon-arrow-up:before {
+  content: "\e90b";
+}
+.icon-cheveron-down:before {
+  content: "\e90c";
+}
+.icon-cheveron-left:before {
+  content: "\e90d";
+}
+.icon-cheveron-outline-down:before {
+  content: "\e90e";
+}
+.icon-cheveron-outline-left:before {
+  content: "\e90f";
+}
+.icon-cheveron-outline-right:before {
+  content: "\e910";
+}
+.icon-cheveron-outline-up:before {
+  content: "\e911";
+}
+.icon-cheveron-right:before {
+  content: "\e912";
+}
+.icon-cheveron-up:before {
+  content: "\e913";
+}

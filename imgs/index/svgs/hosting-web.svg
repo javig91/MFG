@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="592px" height="460px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 592 460"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#336699;stroke-width:1.99961}
+    .fil0 {fill:#333333}
+    .fil1 {fill:#4D4D4D}
+    .fil2 {fill:#669999}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_956750576">
+   <polygon class="fil0" points="191,460 401,460 401,0 191,0 "/>
+   <rect class="fil1" x="200" y="11" width="192.826" height="65.9396"/>
+   <rect class="fil2" x="209" y="22" width="173.361" height="6.28719"/>
+   <rect class="fil2" x="209" y="35" width="173.361" height="6.28719"/>
+   <rect class="fil2" x="209" y="48" width="124.273" height="6.28719"/>
+   <rect class="fil2" x="209" y="61" width="173.361" height="6.28719"/>
+   <polygon class="fil1" points="191,460 401,460 401,295 191,295 "/>
+   <circle class="fil2 str0" cx="380" cy="439" r="11"/>
+   <circle class="fil2 str0" cx="351" cy="439" r="11"/>
+   <circle class="fil2 str0" cx="321" cy="439" r="11"/>
+   <polygon class="fil0" points="424,446 592,446 592,80 424,80 401,106 401,424 "/>
+   <rect class="fil1" x="431" y="89" width="154.153" height="44.6961"/>
+   <rect class="fil2" x="439" y="96" width="138.592" height="4.26166"/>
+   <rect class="fil2" x="439" y="105" width="138.592" height="4.26166"/>
+   <rect class="fil2" x="439" y="114" width="99.3485" height="4.26166"/>
+   <rect class="fil2" x="439" y="123" width="138.592" height="4.26166"/>
+   <polygon class="fil1" points="424,446 592,446 592,402 424,370 "/>
+   <circle class="fil2 str0" cx="577" cy="431" r="8"/>
+   <circle class="fil2 str0" cx="557" cy="431" r="8"/>
+   <circle class="fil2 str0" cx="537" cy="431" r="8"/>
+   <polygon class="fil0" points="0,446 168,446 191,424 191,106 168,80 0,80 "/>
+   <rect class="fil1" x="7" y="89" width="154.153" height="44.6961"/>
+   <rect class="fil2" x="15" y="96" width="138.592" height="4.26166"/>
+   <rect class="fil2" x="15" y="105" width="138.592" height="4.26166"/>
+   <rect class="fil2" x="15" y="114" width="99.3485" height="4.26166"/>
+   <rect class="fil2" x="15" y="123" width="138.592" height="4.26166"/>
+   <polygon class="fil1" points="0,446 168,446 168,370 0,402 "/>
+   <circle class="fil2 str0" cx="153" cy="431" r="8"/>
+   <circle class="fil2 str0" cx="132" cy="431" r="8"/>
+   <circle class="fil2 str0" cx="112" cy="431" r="8"/>
+  </g>
+ </g>
+</svg>
